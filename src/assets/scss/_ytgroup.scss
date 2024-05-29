@@ -1,0 +1,64 @@
+.button-heading {
+  background-color: tomato;
+  border-radius: 20px;
+}
+
+.bg-transparent {
+  background-color: transparent;
+}
+.hero-banner-one {
+  background: url('../images/ytgroup/banner1.png');
+  position: relative;
+  margin-top: 75;
+}
+
+.hero-banner-two {
+  background: url('../images/ytgroup/banner2.png');
+  position: relative;
+  margin-top: 75;
+}
+
+.hero-banner-one,
+.hero-banner-two,
+.hero-banner-three {
+  min-height: 100vh;
+  max-height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 2rem;
+}
+.hero-banner-two {
+  text-align: left;
+  align-items: flex-start;
+}
+
+.hero-banner-two h1 {
+  font-size: 3rem;
+  color: #fff;
+  margin-bottom: 1rem;
+  font-family: 'Poppins';
+
+  font-weight: 900;
+  font-size: 3.5rem;
+}
+
+.hero-banner-one h1 {
+  font-size: 3rem;
+  color: #fff;
+  margin-bottom: 1rem;
+  font-family: 'Poppins';
+  text-align: left;
+
+  font-weight: 900;
+  font-size: 7.5rem;
+}
+
+.hero-banner-one p {
+  font-size: 1.5rem;
+  color: #fff;
+  margin-bottom: 2rem;
+}
