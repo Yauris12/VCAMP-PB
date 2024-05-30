@@ -1,6 +1,4 @@
 import React from 'react'
-import { LazyLoadImage } from 'react-lazy-load-image-component'
-import seccion3 from '../../assets/images/ytgroup/seccion3.png'
 
 const Section2YT = () => {
   return (
