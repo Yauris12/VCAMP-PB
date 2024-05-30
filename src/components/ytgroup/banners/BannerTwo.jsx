@@ -9,10 +9,11 @@ function BannerTwo() {
       <h1 className='body'>
         BIENVENIDO A UN MUNDO <br /> LLENO DE OPORTUNIDADES
       </h1>
-      <p className='w-75'>
-        "Conectando su empresa con oportunidades ilimitadas. Nuestro enfoque
-        personalizado impulsa el crecimiento de su negocio mientras usted se
-        enfoca en lo que más importa."
+      <p className='w-75 pt-lg-5'>
+        "Conectando su empresa con oportunidades ilimitadas. Nuestro <br />
+        enfoque personalizado impulsa el crecimiento de su negocio mientras
+        <br />
+        usted se enfoca en lo que más importa."
       </p>
     </div>
   )
