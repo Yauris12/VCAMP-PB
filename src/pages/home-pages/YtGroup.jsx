@@ -4,6 +4,7 @@ import Header from '../../components/marketing-agency/Header'
 import CarouselBanners from '../../components/ytgroup/CarouselBanners'
 import Section1YT from '../../components/ytgroup/Section1YT'
 import CounterUp from '../../components/creative-agency/CounterUp'
+import Section2YT from '../../components/ytgroup/Section2YT'
 
 const YtGroup = () => {
   return (
@@ -20,6 +21,7 @@ const YtGroup = () => {
           {/* End .row */}
         </div>
       </div>
+      <Section2YT />
     </div>
   )
 }

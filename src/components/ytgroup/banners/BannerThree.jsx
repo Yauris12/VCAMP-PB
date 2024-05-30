@@ -7,10 +7,13 @@ function BannerThree() {
   return (
     <div className='hero-banner-yt'>
       <div className='body'>
-        <h1>
-          BIENVENIDO A UN MUNDO <br /> LLENO DE OPORTUNIDADES
-        </h1>
-
+        <div className='container_yt'>
+        <div className="container_title">
+          <h1 className='title'>
+          BIENVENIDO A UN MUNDO LLENO <br/> DE OPORTUNIDADES
+          </h1>
+        </div>
+        </div>
         <LazyLoadImage className='image_yt' src={banner31} />
       </div>
     </div>
